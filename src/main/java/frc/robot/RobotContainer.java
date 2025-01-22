@@ -2,8 +2,6 @@ package frc.robot;
 
 import com.pathplanner.lib.*;
 import com.pathplanner.lib.path.PathConstraints;
-import com.pathplanner.lib.path.PathPlannerTrajectory;
-import com.pathplanner.lib.util.PIDConstants;
 
 import edu.wpi.first.math.geometry.Pose2d;
 import edu.wpi.first.math.geometry.Rotation2d;
@@ -20,9 +18,7 @@ import static frc.robot.util.Constants.OperatorConstants.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import com.swervedrivespecialties.swervelib.*;
 
-import frc.robot.commands.BalanceStation;
 import frc.robot.commands.DriveControl;
 import frc.robot.commands.DriveToAprilTag;
 import frc.robot.subsystems.Drivetrain;
